@@ -1,3 +1,4 @@
+//Random Password Generator
 function generatePassword() {
 
     var length = document.getElementById("length").value;
@@ -14,4 +15,5 @@ function generatePassword() {
     }
 
     document.getElementById("result").textContent = password;
+
 }
